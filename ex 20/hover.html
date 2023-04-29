@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hover</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-image: linear-gradient(to left,#C1B83E, #FFDC39 );
+        }
+        main{
+            background-color: white;
+            width: 600px;
+            padding: 8px;
+            margin: auto;
+            border-radius: 10px;         
+        }
+        h1{
+            text-align: center;
+            color: #64601f;
+            text-shadow: 1px 1px 2px #363411a1 ;
+    
+        }
+        div > p {
+            display: none; /*Função para sumir algoritimo */
+        }
+        div:hover > p{
+            display: block; /*Função para aparecer algoritimo */
+            text-align: center;
+            color: white;
+            background-color: rgb(37, 85, 43);
+            width: 145px;
+           
+
+        }
+        div:hover{
+            color: #837e2a;
+        }
+    </style>
+</head>
+<body>
+    
+    <main>
+        <h1>Site do Gado</h1>
+        <p>Passe o mouse sobre o texto abaixo, para ver quem será o gado</p>
+        <div>
+            Passe o mouse aqui para saber o gado do dia
+            <p>GADO DO ARTUR</p>
+        </div>
+        <p>Essa foi mais muma resenha</p>
+    </main>
+</body>
+</html>
